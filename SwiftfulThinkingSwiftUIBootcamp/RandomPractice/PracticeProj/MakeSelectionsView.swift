@@ -201,9 +201,9 @@ struct SelectShapeView3: View {
     }
 }
 
-// MARK: - Preview
+ //MARK: - Preview
 
-//#Preview {
-//    MakeSelectionsView(playerViewModel: PlayerViewModel(), picksMadeNumber: .constant(1))
-//}
+#Preview {
+    MakeSelectionsView(playerViewModel: PlayerViewModel(), picksMadeNumber: .constant(1))
+}
 
